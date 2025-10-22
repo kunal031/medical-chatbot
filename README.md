@@ -4,6 +4,9 @@ A complete end-to-end Medical Chatbot built using Large Language Models (LLMs), 
 This project also demonstrates AWS CI/CD deployment with GitHub Actions for scalable cloud deployment.
 
 ---
+![Logo](medical-chatbot-image.png)
+
+---
 
 ## 🚀 Features
 
