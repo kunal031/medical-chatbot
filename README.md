@@ -1,33 +1,34 @@
 # Medical Chatbot
 
-A conversational AI chatbot designed to assist users with medical queries and health-related guidance. This project leverages modern NLP techniques to provide accurate and context-aware responses.  
+A complete end-to-end Medical Chatbot built using Large Language Models (LLMs), LangChain, Pinecone for vector search, and Flask for serving.
+This project also demonstrates AWS CI/CD deployment with GitHub Actions for scalable cloud deployment.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Conversational interface for medical queries.  
-- Context-aware responses.  
-- Can handle multiple types of medical questions.  
-- Easy to extend with more medical knowledge.  
+- Upload & process medical documents (PDFs).
+- Chunk text and store embeddings in Pinecone vector database.
+- Query and retrieve relevant medical information using LLMs.
+- Interactive chatbot with Flask web interface.
+- CI/CD pipeline for deploying to AWS (EC2 + ECR).
+- Secure with environment variables (.env).
+---
+
+## 🛠️ Tech Stack
+- **Python**
+- **LangChain**
+- **Flask**
+- **GPT / LLMs**
+- **Pinecone** (Vector Database)
+- **AWS (ECR, EC2)**
+- **GitHub Actions (CI/CD)**
 
 ---
 
-## Technologies Used
+## ⚙️ How to Run Locally
 
-- **Python** – Main programming language.  
-- **LangChain** – For building language model pipelines.  
-- **HuggingFace Models** – For natural language understanding and generation.  
-- **Pinecone** – Vector databases for embedding and retrieval.  
-- **Streamlit** – Frontend interface for web-based interaction.  
-- **NumPy & Pandas** – Data processing and manipulation.  
-- **Scikit-learn** – For auxiliary machine learning tasks.  
-
----
-
-## Installation
-
-1. **Clone the repository**
+### 🔹 STEP 1: Clone the Repository
 ```bash
 git clone https://github.com/kunal031/medical-chatbot.git
 cd medical-chatbot
